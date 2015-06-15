@@ -48,6 +48,7 @@ def solveIt():
 
 
 if __name__ == '__main__':
-    import timeit
 
-    print(timeit.timeit("solveIt()", setup="from __main__ import solveIt", number=1))
+#    import timeit
+#    print(timeit.timeit("solveIt()", setup="from __main__ import solveIt", number=1))
+    solveIt()
